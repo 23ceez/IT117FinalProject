@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--DEVELOPER: Cesar Rincon, IS117-007, Fall 2025-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/style.css">
+    <title>Movies</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="../index.html">
+        <img src="../images/ceezlogo.png" alt="logo" width="60" height="60" class="d-inline-block align-text-top">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Reviews
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="movies.html">Movies</a></li>
+            <li><a class="dropdown-item" href="tvshows.html">TV Shows</a></li>
+            <li><a class="dropdown-item" href="music.html">Music</a></li>
+            <li><a class="dropdown-item" href="books.html">Books</a></li>
+            <li><a class="dropdown-item" href="videogames.html">Video Games</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="suggestions.html">Suggestions</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+    </nav>
+    </header>
+         <main class="container my-5">
+        
+        <!-- Page Introduction -->
+        <section class="mb-5 p-4 bg-white rounded shadow-sm">
+            <h1 class="display-4 border-bottom pb-2">Movies</h1>
+            <p class="lead">
+                This page is for my movie reviews! Scroll down to check them out!
+            </p>
+        </section>
+
+        <!-- Movie Reviews Section -->
+        <section class="movie-reviews-list">
+
+            <!-- REVIEW 1: One Battle After Another -->
+            <article id="one-battle-after-another" class="review-post p-4 mb-4 bg-white rounded shadow-sm border border-success border-opacity-25">
+                <h2 class="text-success mb-3">One Battle After Another (2025) - A Paul Thomas Anderson Masterpiece</h2>
+                <div class="clearfix">
+                    <!-- Image with Alt tag and float class -->
+                    <img src="/images/onebattleafteranother.png" class="img-fluid rounded me-4 mb-3 float-start" alt="Placeholder image of the movie poster for One Battle After Another.">
+                    
+                   <p>
+                        <b>Paul Thomas Anderson</b> has always been fascinated by the corrosive nature of the American dream, but One Battle After Another moves beyond simple ambition and delivers a sweeping, politically-charged epic centered on the survival of a radical family. The film traces the lives of "Ghetto" Pat Calhoun (<b>Leonardo DiCaprio</b>) and Perfidia Beverly Hills (<b>Teyana Taylor</b>), members of the far-left French 75, whose revolutionary ideals are slowly crushed by state power and personal betrayal. The opening sequence, a frantic breakout from the Otay Mesa Detention Center, immediately sets a tone of explosive political and sexual tension that doesn't let up for the film's three-hour runtime.
+                    </p>
+                    <p>
+                        The true genius lies in the character of Colonel Steven J. Lockjaw (<b>Sean Penn</b>). What begins as a straightforward hunt for a revolutionary (Perfidia) quickly devolves into a twisted, obsessive pursuit fueled by lust and humiliation. The deal Lockjaw forces—saving Perfidia from prison in exchange for sex and the betrayal of her comrades—is the central, sickening pivot point of the film, setting the stage for a tragic, paranoid second act.
+                    </p>
+                    
+                    <h3 class="subsection-title">The Fractured Family & The Hunt</h3>
+                    <p>
+                        The narrative jumps sixteen years forward to Pat (now Bob Ferguson), a paranoid stoner living off-the-grid with his daughter, Willa (<b>Chase Infiniti</b>), in Baktan Cross. This is where the film finds its heart, contrasting the father's protective paranoia against Willa's free spirit. Lockjaw, now a powerful, hardened Colonel, hunts Willa to cover up his past relationship with Perfidia, which threatens his standing with the white supremacist <b>Christmas Adventurers Club</b>. This second half functions as a gritty, frantic thriller, featuring:
+                        <ul>
+                            <li>The use of the bounty hunter Avanti Q (<b>Eric Schweig</b>), whose change of heart provides a brief moment of selfless heroism before his demise.</li>
+                            <li>The critical role of Sergio St. Carlos (<b>Benicio del Toro</b>), Willa’s karate teacher, who assists the resistance while evacuating immigrants through a hidden passageway—a powerful visual linking the past and present struggles of the French 75.</li>
+                            <li>The dramatic escape sequences, including Bob notifying the resistance network while high, and Willa’s final confrontation on the desert highway.</li>
+                        </ul>
+                    </p>
+                    <p class="mt-4">
+                        One Battle After Another is a masterpiece of complex character dynamics, unflinching violence, and dense plotting. It is a cinematic challenge that demands attention, ultimately delivering a profoundly moving commentary on how political and personal traumas scar the next generation. The ending, with Lockjaw's brutal demise and Willa departing for a protest, brings the saga full circle, offering a difficult, but necessary, resolution.
+                    </p>
+
+                    <h3 class="mt-4">Score: 9/10</h3>
+                </div>
+                
+                <!-- Clear the float for the next review post -->
+                <div class="clearfix"></div> 
+            </article>
+    </main>
+    <footer class="bg-dark text-white py-3 mt-5">
+        <div class="container text-center">
+            <p class="mb-1">
+                <a href="#" class="text-white mx-2">Terms of Service</a> 
+                  &copy; Copyright Cesar Rincon 11/25/2025 
+                <a href="#" class="text-white mx-2">Privacy Statement</a>
+            </p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

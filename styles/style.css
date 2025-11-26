@@ -1,0 +1,107 @@
+/*DEVELOPER: Cesar Rincon, IS117-007, Fall 2025 */
+
+/* style rules */
+
+body {
+    background-color: #F5F5F5; /* Light Gray / Off-White background */
+    color: #222222; /* Deep Charcoal text */
+    font-size: 1em; /* Ensures readable font size, well above the .75 em minimum*/
+}
+
+/* navbar styles */
+
+.site-navbar-custom, .site-footer-custom, .navbar-custom {
+    background-color: #386641 !important; /* Deep Forest Green */
+    color: #F5F5F5;
+}
+
+
+.site-navbar-custom .dropdown-menu,
+.navbar-custom .dropdown-menu {
+    background-color: #386641; 
+    border: 1px solid #A7C957; /* Muted Gold/Olive border */
+}
+
+.site-navbar-custom .dropdown-menu .dropdown-item,
+.navbar-custom .dropdown-menu .dropdown-item {
+    color: #F5F5F5; 
+}
+
+.site-navbar-custom .dropdown-menu .dropdown-item:hover,
+.navbar-custom .dropdown-menu .dropdown-item:hover {
+    background-color: #2D5034; /* Darker green hover effect */
+    color: #A7C957; 
+}
+
+/* footer styles */
+footer a {
+    color: #F5F5F5; /* Light text on dark background */
+    text-decoration: none;
+
+}
+
+footer a:hover {
+    color: #A7C957; /* Olive hover accent */
+}
+
+/* button styles */
+
+/* Style for Buttons (like the "Read More" on cards) */
+.btn-primary, .btn-primary:hover {
+    background-color: #A7C957; /* Muted Gold/Olive */
+    border-color: #A7C957; 
+    color: #222222; /* Dark text on the button for contrast */
+}
+
+/* image and float styling */
+
+img {
+    max-width: 100%; 
+    height: auto;
+}
+
+/* wrapping! */
+.float-start {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+/* makes sure my about me image isn't too big */
+.aboutme-image {
+    max-width: 300px;
+    height:auto;
+}
+
+
+/* card styles in home page */
+.homepage-custom-style .card {
+    background-color: #222222; /* Deep Charcoal Card Background */
+    color: #F5F5F5; 
+    border: 1px solid #386641; /* Green border for accent */
+}
+
+/* link color inside cards*/
+.homepage-custom-style a {
+    color: #A7C957; 
+}
+
+/*media queries*/
+
+@media (max-width: 768px) {
+    .homepage-custom-style {
+        padding: 1rem;
+    }
+
+
+    .homepage-custom-style .display-4 {
+        font-size: 2rem;
+    }
+    
+
+    .mb-5 {
+        margin-bottom: 1.5rem !important;
+    }
+
+
+}
